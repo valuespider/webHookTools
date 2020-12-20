@@ -1,7 +1,12 @@
 {
-  "name": "有道云笔记",
-  "version": "2.0.0",
-  "description": "有道云笔记本-网易出品-阿布特别版",
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "js反调试工具",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
   "permissions": ["storage", "activeTab", "tabs", "debugger", "storage"],
   "browser_action": {
     "default_popup": "popup.html"
