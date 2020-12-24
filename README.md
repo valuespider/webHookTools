@@ -1,6 +1,7 @@
 ### 更新于 2020-5-14 By 阿布。
 
 What's new?
+
 1：更新了 stringify 的逻辑，由于 stringify 的调用太频繁，如果每次都断住，这样很不合理，于是判断增加关键字，
 比如关键字为 abcde，那么当被转换对象其中内容包含 abcde 的时候，才会断住。如果不包含，就正常输入被调用，不会断住。
 
@@ -9,6 +10,7 @@ What's new?
 ### 更新于 2020-5-14 By 阿布。
 
 What's new?
+
 1 ：勾选 hook debugger 后 ,可打开 F12 之后 按 Alt+Shift+D 来呼出 Attach 来解决所有常量 debugger。
 解决：
 直接写在 js 里的 debugger 常量无法 hook（其实也行，但是我不知道怎么写在扩展里） --》 现在知道咋写进去了 - - 。
@@ -17,6 +19,7 @@ What's new?
 ### 更新于 2020-5-13 By 阿布。
 
 主要解决问题..
+
 1、基于 console 的 devtool 检测
 有些网站会用 console 来检测是否打开了 F12（开发者工具），所以直接 hook console 对象 让所有输出失效，已达到过检测的目的。
 
